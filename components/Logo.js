@@ -7,8 +7,8 @@ export default function Logo() {
       <Image
         src="/logo.png"
         alt="Online Marketing HQ Logo"
-        width={20}
-        height={20}
+        width={40}
+        height={40}
         className="object-contain"
       />
     </Link>
