@@ -7,14 +7,10 @@ export default function Logo() {
       <Image
         src="/logo.png"
         alt="Online Marketing HQ Logo"
-        width={40}
-        height={40}
+        width={20}
+        height={20}
         className="object-contain"
       />
-
-      <span className="font-display text-[15px] font-semibold text-ink">
-        Online Marketing
-      </span>
     </Link>
   );
 }
