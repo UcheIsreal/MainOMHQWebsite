@@ -6,10 +6,11 @@ export default function Logo() {
     <Link href="/" className="flex items-center gap-2.5 shrink-0">
       <Image
         src="/logo.png"
-        alt="Online Marketing HQ Logo"
-        width={40}
+        alt="Online Marketing HQ"
+        width={160}
         height={40}
-        className="object-contain"
+        className="h-8 w-auto"
+        priority
       />
     </Link>
   );
