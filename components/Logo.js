@@ -3,14 +3,18 @@ import Image from "next/image";
 
 export default function Logo() {
   return (
-    <Link href="/" className="flex items-center shrink-0">
+    <Link href="/" className="flex items-center gap-2.5 shrink-0">
       <Image
-        src="https://www.image2url.com/r2/default/images/1789845155398-7574319e-cbf6-461d-b6c7-12b59c72ea0b.png"
+        src="/logo.png"
         alt="Online Marketing HQ Logo"
-        width={180}
-        height={50}
+        width={40}
+        height={40}
         className="object-contain"
       />
+
+      <span className="font-display text-[15px] font-semibold text-ink">
+        Online Marketing
+      </span>
     </Link>
   );
 }
