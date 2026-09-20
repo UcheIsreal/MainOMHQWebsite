@@ -40,7 +40,7 @@ export default function Navbar() {
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle menu"
           aria-expanded={open}
-          className="flex h-9 w-9 items-center justify-center rounded-md border border-hairline text-ink md:hidden"
+          className="flex h-9 w-9 items-center justify-center rounded-md border border-hairline text-black md:hidden"
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
             {open ? (
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="text-sm font-medium text-black transition-colors hover:text-ink"
+                  className="text-sm font-medium text-black transition-colors hover:text-red-500"
                 >
                   {link.label}
                 </Link>
