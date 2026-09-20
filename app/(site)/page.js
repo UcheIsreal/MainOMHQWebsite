@@ -44,9 +44,6 @@ export default async function HomePage() {
       <section className="grid-glow relative overflow-hidden border-b border-hairline">
         <div className="page-shell grid gap-14 py-20 md:grid-cols-[1.1fr_0.9fr] md:py-28">
           <div>
-            <p className="text-sm font-medium text-ink-dim">
-              Performance Marketing &middot; Lagos, working across the UK, US, Canada &amp; Australia
-            </p>
             <h1 className="mt-5 text-4xl font-extrabold leading-[1.1] text-ink md:text-5xl">
               Marketing built to move one number:{" "}
               <span className="gradient-text">your revenue.</span>
@@ -54,7 +51,7 @@ export default async function HomePage() {
             <p className="mt-6 max-w-lg text-base leading-relaxed text-ink-dim">
               We run the Meta, TikTok, and Google ads. We build the SEO engine
               behind them. We ship the store that has to convert all of it.
-              Then we show you the number that moved \u2014 not a highlight reel.
+              Then we show you the number that moved not a highlight reel.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href="mailto:hello@onlinemarketinghq.co" className="btn-primary">
@@ -80,7 +77,7 @@ export default async function HomePage() {
               ))}
             </ul>
             <p className="mt-6 text-xs text-ink-faint">
-              Sample figures for illustration \u2014 replace with your account results.
+              Sample figures for illustration replace with your account results.
             </p>
           </div>
         </div>
@@ -101,7 +98,7 @@ export default async function HomePage() {
         <div className="max-w-lg">
           <h2 className="text-3xl font-bold text-ink">Three services, one scoreboard.</h2>
           <p className="mt-4 text-ink-dim">
-            Each one is run to feed the others \u2014 SEO content backs the ad
+            Each one is run to feed the others SEO content backs the ad
             angles, the ads validate what SEO should target next, and the
             store is built to hold the traffic both bring in.
           </p>
