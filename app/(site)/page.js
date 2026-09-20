@@ -7,9 +7,9 @@ import { getPublishedPosts } from "@/lib/db";
 export const dynamic = "force-dynamic";
 
 const stats = [
-  { value: "3.2x", label: "average ROAS across live ad accounts" },
-  { value: "68%", label: "of leads now arriving organically, not paid" },
-  { value: "11", label: "ecommerce builds shipped and still converting" },
+  { value: "7.5x", label: "average ROAS across ad accounts we've managed" },
+  { value: "68%", label: "decrease of CPL (cost per lead)" },
+  { value: "11", label: "ecommerce websites built and still converting" },
 ];
 
 const services = [
@@ -17,7 +17,7 @@ const services = [
     icon: AdsIcon,
     name: "Ads Management",
     blurb:
-      "Meta, TikTok, and Google campaigns built around a target cost per result, with weekly reads on what to scale and what to cut.",
+      "Meta, TikTok, and Google campaigns built with the aim of generating maximum revenue around a target cost per result, with weekly reports on what to scale and what to cut.",
   },
   {
     icon: SeoIcon,
@@ -27,9 +27,9 @@ const services = [
   },
   {
     icon: StoreIcon,
-    name: "Ecommerce Builds",
+    name: "Ecommerce Website Creation",
     blurb:
-      "Storefronts built to load fast and check out faster, wired into the same pixel and analytics stack running the ads.",
+      "Websites built to load fast and check out faster, wired into the same pixel and analytics stack running the ads.",
   },
 ];
 
@@ -49,9 +49,11 @@ export default async function HomePage() {
               <span className="gradient-text">your revenue.</span>
             </h1>
             <p className="mt-6 max-w-lg text-base leading-relaxed text-ink-dim">
-              We run the Meta, TikTok, and Google ads. We build the SEO engine
-              behind them. We ship the store that has to convert all of it.
-              Then we show you the number that moved not a highlight reel.
+              We turn ads, SEO, and your website into a growth system that brings in more qualified traffic, 
+              leads, and sales. We build the automations that eliminate repetitive tasks, save your team hours,
+              and keep the business moving without everything depending on you. 
+              Then we show you the numbers that actually matter—revenue generated,
+              costs reduced, conversions improved, and time saved—not a highlight reel.
             </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href="mailto:hello@onlinemarketinghq.co" className="btn-primary">
@@ -77,7 +79,7 @@ export default async function HomePage() {
               ))}
             </ul>
             <p className="mt-6 text-xs text-ink-faint">
-              Sample figures for illustration replace with your account results.
+              You will get results like this when you work with us
             </p>
           </div>
         </div>
@@ -96,11 +98,11 @@ export default async function HomePage() {
 
       <section className="page-shell py-20 md:py-28">
         <div className="max-w-lg">
-          <h2 className="text-3xl font-bold text-ink">Three services, one scoreboard.</h2>
+          <h2 className="text-3xl font-bold text-ink">Three services, one aim. Revenue Generation.</h2>
           <p className="mt-4 text-ink-dim">
-            Each one is run to feed the others SEO content backs the ad
-            angles, the ads validate what SEO should target next, and the
-            store is built to hold the traffic both bring in.
+            Three engines, one team. We win the attention, fill your leads pipeline and close the sales 
+            for your ecommerce store using Ads, SEO, and Marketing Automations that makes 
+            running your business a breeze.
           </p>
         </div>
 
@@ -123,9 +125,9 @@ export default async function HomePage() {
       <section className="border-t border-hairline bg-panel/40 py-20 md:py-28">
         <div className="page-shell flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
           <div className="max-w-lg">
-            <h2 className="text-3xl font-bold text-ink">Proof, not portfolio filler.</h2>
+            <h2 className="text-3xl font-bold text-ink">See the people we have worked with and the results we generated.</h2>
             <p className="mt-4 text-ink-dim">
-              A look at the accounts we run and the number that moved on each one.
+              A look at the accounts we run and the results that made them see us as the best.
             </p>
           </div>
           <Link href="/work" className="btn-secondary shrink-0">
@@ -141,7 +143,7 @@ export default async function HomePage() {
             <div className="max-w-lg">
               <h2 className="text-3xl font-bold text-ink">From the blog</h2>
               <p className="mt-4 text-ink-dim">
-                Notes on what’s working in ads, SEO, and ecommerce right now.
+                Educational posts on what’s working in ads, SEO, and ecommerce right now.
               </p>
             </div>
             <Link href="/blog" className="btn-secondary shrink-0">
@@ -175,7 +177,7 @@ export default async function HomePage() {
       <section className="border-t border-hairline py-20 md:py-28">
         <div className="page-shell glass-panel flex flex-col items-start gap-6 rounded-2xl p-10 md:flex-row md:items-center md:justify-between md:p-14">
           <div>
-            <h2 className="text-3xl font-bold text-ink">Let’s find your number.</h2>
+            <h2 className="text-3xl font-bold text-ink">Talk with us.</h2>
             <p className="mt-3 max-w-md text-ink-dim">
               Tell us the budget and the goal. We’ll tell you honestly whether we can move it.
             </p>
