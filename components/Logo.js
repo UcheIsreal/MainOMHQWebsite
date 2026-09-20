@@ -7,8 +7,8 @@ export default function Logo() {
       <Image
         src="/logo.png"
         alt="Online Marketing HQ"
-        width={160}
-        height={40}
+        width={250}
+        height={100}
         className="h-8 w-auto"
         priority
       />
