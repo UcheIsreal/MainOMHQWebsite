@@ -15,7 +15,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-hairline bg-abyss/80 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-hairline bg-white backdrop-blur-xl">
       <div className="page-shell flex h-16 items-center justify-between">
         <Logo />
 
@@ -24,7 +24,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-ink-dim transition-colors hover:text-ink"
+              className="text-sm font-medium text-black transition-colors hover:text-ink"
             >
               {link.label}
             </Link>
@@ -60,7 +60,7 @@ export default function Navbar() {
                 <Link
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="text-sm font-medium text-ink-dim hover:text-ink"
+                  className="text-sm font-medium text-black transition-colors hover:text-ink"
                 >
                   {link.label}
                 </Link>
