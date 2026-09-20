@@ -6,7 +6,6 @@ export default function Footer() {
     <footer className="border-t border-hairline">
       <div className="page-shell grid gap-10 py-14 md:grid-cols-[1.2fr_1fr_1fr]">
         <div>
-          <Logo />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-dim">
             Performance marketing for brands that want to see the number move,
             not just hear the pitch.
@@ -31,7 +30,7 @@ export default function Footer() {
                 hello@onlinemarketinghq.co
               </Link>
             </li>
-            <li>Lagos, Nigeria \u2014 working with brands in the UK, US, Canada &amp; Australia</li>
+            <li>Lagos, Nigeria working with brands in the UK, US, Canada &amp; Australia</li>
           </ul>
         </div>
       </div>
